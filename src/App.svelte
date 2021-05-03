@@ -7,7 +7,7 @@
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Hello {title}</p>
+	<p>Hello ádsadsadsadsadsad {title}</p>
 	<Nested />
 	<label>
 		<input type="checkbox" bind:checked={yes} />
