@@ -1,3 +1,52 @@
-h1{
-    color: red
+*{
+    margin: 0 auto;
+    padding: 0;
 }
+.header{
+// background-color: white;
+width: 1440px;
+position: fixed;
+z-index: 10;
+display: grid;
+left: 50%;
+transform: translateX(-50%);
+grid-template-columns: 35% 35% 30%;
+align-items: center;
+backdrop-filter: blur(5px);
+    .logo{
+        display: grid;
+        grid-template-columns: 90% 10%;
+        align-items: center;
+        padding-right: 130px;
+        .eng{
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+            align-items: center;
+            .eng__vector{
+                padding-left: 10px;
+            }
+        }
+    }
+    ul.menu{
+        list-style: none;
+        li{
+            float: left;
+            padding: 0 15px;
+        }
+        a:hover{
+            display: block;
+            color: rgb(31, 18, 18);
+            text-decoration: none;
+           
+        }
+    }
+    .join__Now{
+        padding: 6px 12px;
+        background: #ffffff;
+        box-shadow: 4px 4px 6px rgba(192, 206, 255, 0.64);
+        border-radius: 10px;
+       
+    }
+
+}
+

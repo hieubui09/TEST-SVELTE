@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+footer{
+    background-color: white;
+    position: relative;
+    width: 1440px;
+    .ft__img{
+        padding-left: 110px;
+    }
+    .ft__row{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        .fl__text{
+            padding-right: 55px;
+            padding-top: 20px;
+        }
+        h2{
+            padding-bottom: 50px;
+        }
+        ul{
+            list-style: none;
+            padding-bottom: 40px;
+            li a{
+                display: block;
+                color: #000;
+                padding: 10px 0px;
+                text-decoration: none;
+              
+            }
+        }
+       
+        
+    }
+}

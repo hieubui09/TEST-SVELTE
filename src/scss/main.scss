@@ -1,3 +1,91 @@
-h1{
-    color: blue
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+section{
+    background-color: white;
+    position: relative;
+    width: 1440px;
+    .Lighthouse{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .wrapper{
+        width: 1142px;
+        .trademark{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            background: #DEE4FE;
+            border-radius: 10px;
+            align-items: center;
+              height: 100px;
+            }
+        .title h2{
+                text-align: center;
+            }
+        .content{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+               text-align: center;
+                 p{
+                  width: 300px;
+                  }
+                }
+        .content__dautu{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            grid-template-rows: auto auto auto auto;
+            grid-gap: 1px;
+            padding: 1px;
+          }
+        .content_laptop{
+            display: grid;
+            grid-template-columns: 40% 60%;
+        }
+        .content_world{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            .flex{
+                display: flex;
+            }
+
+        }
+    }
+    .content_kiemtien{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        background: #dcf2ff;
+        border-radius: 10px;
+    }
+    .content_thamgia{
+        text-align: center;
+        background-image: url('/images/Rectangle 17.png');
+        height: 200px;
+        h1{
+            padding-top: 70px;
+            padding-bottom: 15px;
+            color: white;
+        }
+        .now{
+            padding: 10px 10px;
+            box-shadow: 4px 4px 6px #0E18A0;
+            border-radius: 5px;
+            color: #0E18A0;
+        }
+        .add{
+            padding: 10px 10px;
+            box-shadow: 4px 4px 6px #0E18A0;
+            border-radius: 5px;
+            background: #2632DA;
+            color: white;
+        }
+
+    }
+ 
+
 }
