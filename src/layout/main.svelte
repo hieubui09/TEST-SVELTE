@@ -10,7 +10,7 @@
                 <p>Tham gia Bitkingreturns của chúng tôi để xây dựng một
                  nền kinh tế phi tập trung hoàn toàn minh bạch</p>
                  <button>Tham Gia</button>
-                 <p>Tìm hieur thêm</p>
+                 <p>Tìm hieểu thêm vài cái nữa thêm</p>
             </div>
             <!-- <div class="Lighthouse__img">
                 <img src="images/Group 40.png" alt="" />
