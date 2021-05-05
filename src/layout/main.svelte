@@ -6,6 +6,7 @@
     <section>
         <div class="Lighthouse">
             <div class="Lighthouse__text">
+<<<<<<< HEAD
                 <h1>Nền tảng tài chính thông minh hàng đầu trên thế giới</h1>
                 <p>
                     Tham gia Bitkingreturns của chúng tôi để xây dựng <br /> một
@@ -18,6 +19,13 @@
             </div>
             <div class="Lighthouse__img">
                 <img src="images/Group B.png" alt="" />
+=======
+                <h3>Nền tảng tài chính thông minh hàng đầu trên thế giới</h3>
+                <p>Tham gia Bitkingreturns của chúng tôi để xây dựng một
+                 nền kinh tế phi tập trung hoàn toàn minh bạch</p>
+                 <button>Tham Gia</button>
+                 <p>Tìm hieểu thêm vài cái nữa thêm</p>
+>>>>>>> 19225f2b7e4b2aad1c8a81135c1dc6f973ce28bf
             </div>
         </div>
         <div class="wrapper">
