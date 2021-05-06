@@ -1,12 +1,25 @@
 <script>
-  
+    import { Swipe, SwipeItem } from "svelte-swipe";
+    const swipeConfig = {
+        autoplay: false,
+        delay: 2000,
+        showIndicators: false,
+        transitionDuration: 1000,
+        defaultIndex: 0,
+    };
+    let SwipeComp;
+    function nextSlide() {
+        SwipeComp.nextItem();
+    }
+    function prevSlide() {
+        SwipeComp.prevItem();
+    }
 </script>
 
 <main>
     <section>
         <div class="Lighthouse">
             <div class="Lighthouse__text">
-<<<<<<< HEAD
                 <h1>Nền tảng tài chính thông minh hàng đầu trên thế giới</h1>
                 <p>
                     Tham gia Bitkingreturns của chúng tôi để xây dựng <br /> một
@@ -14,18 +27,14 @@
                 </p>
                 <div>
                     <button>Tham Gia</button>
-                    <p>Tìm hiểu thêm &#10141;</p>
+                    <u>Tìm hiểu thêm</u>
+                    <p> &#10141;</p>
                 </div>
             </div>
             <div class="Lighthouse__img">
-                <img src="images/Group B.png" alt="" />
-=======
-                <h3>Nền tảng tài chính thông minh hàng đầu trên thế giới</h3>
-                <p>Tham gia Bitkingreturns của chúng tôi để xây dựng một
-                 nền kinh tế phi tập trung hoàn toàn minh bạch</p>
-                 <button>Tham Gia</button>
-                 <p>Tìm hieểu thêm vài cái nữa thêm</p>
->>>>>>> 19225f2b7e4b2aad1c8a81135c1dc6f973ce28bf
+                <img class="img_01" src="images/Vector99.png" alt="">
+                <img  class="img_02" src="images/Vector98.png" alt="">
+                <img class="img_03" src="images/Group B.png" alt="" />
             </div>
         </div>
         <div class="wrapper">
@@ -97,7 +106,13 @@
                             Bitkingreturns hoàn toàn tự động rút tiền và nạp
                             tiền.
                         </p>
-                        <p>Read more &#10141;</p>
+                        <div>
+                            <u class="read">
+                                Read more
+                            </u>
+                            <p> &#10141;</p>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="item2__grid">
@@ -109,11 +124,19 @@
                             chi tiết để ngăn chặn những tin tặc, những kẻ lừa
                             đảo tấn công và lấy cắp tài sản của bạn
                         </p>
-                        <p>Read more &#10141;</p>
+                        <div>
+                            <u class="read">
+                                Read more
+                            </u>
+                            <p> &#10141;</p>
+                        </div>
                     </div>
                 </div>
                 <div class="item3__grid">
                     <div class="item3__text">
+                         <div>
+                           <img src="images/Ellipse 2.png" alt="">
+                       </div>
                         <img src="images/03.png" alt="" />
                         <h3>Kiếm tiền trở nên dễ dàng với Bitkingreturns</h3>
                         <p>
@@ -124,29 +147,116 @@
                             tế hàng đầu trên thế giới - chính là giải pháp hoàn
                             hảo cho bạn.
                         </p>
-                        <p>Read more &#10141;</p>
+                        <div>
+                            <u class="read">
+                                Read more
+                            </u>
+                            <p> &#10141;</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="space" >  
-        <h3></h3>
+        <div class="space">
+            <h3 />
         </div>
         <div class="content_kiemtien">
             <div class="slider">
-                <div>
-                    <img src="images/Group 32.png" alt="" />
-                </div>
+                <Swipe bind:this={SwipeComp} {...swipeConfig}>
+                    <SwipeItem>
+                        <div class="slider__row">
+                            <div class="slide__item1">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Mua vé</h3>
+                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                </div>
+                            </div>
+                            <div class="slide__item2">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Theo dõi lợi nhuận</h3>
+                                    <p>Theo dõi lợi nhuận của từng vé</p>
+                                </div>
+                            </div>
+                            <div class="slide__item3">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Chia sẻ</h3>
+                                    <p>
+                                        Chia sẻ để xây dựng khoản lợi nhuận lớn
+                                        mỗi ngày
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwipeItem>
+                    <SwipeItem>
+                        <div class="slider__row">
+                            <div class="slide__item1">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Mua vé</h3>
+                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                </div>
+                            </div>
+                            <div class="slide__item2">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Theo dõi lợi nhuận</h3>
+                                    <p>Theo dõi lợi nhuận của từng vé</p>
+                                </div>
+                            </div>
+                            <div class="slide__item3">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Chia sẻ</h3>
+                                    <p>
+                                        Chia sẻ để xây dựng khoản lợi nhuận lớn
+                                        mỗi ngày
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwipeItem>
+                    <SwipeItem>
+                        <div class="slider__row">
+                            <div class="slide__item1">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Mua vé</h3>
+                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                </div>
+                            </div>
+                            <div class="slide__item2">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Theo dõi lợi nhuận</h3>
+                                    <p>Theo dõi lợi nhuận của từng vé</p>
+                                </div>
+                            </div>
+                            <div class="slide__item3">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Chia sẻ</h3>
+                                    <p>
+                                        Chia sẻ để xây dựng khoản lợi nhuận lớn
+                                        mỗi ngày
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </SwipeItem>
+                </Swipe>
 
-                <div class="putton--btn">
-                    <div class="prev" >
-                        <img src="images/one1.png" alt="">
+                <div class="button__btn">
+                    <div class="prev" on:click={prevSlide}>
+                        <img src="images/one1.png" alt="" />
                     </div>
-                    <div class="next"> 
-                        <img src="images/one2.png" alt="">
+                    <div class="next" on:click={nextSlide}>
+                        <img src="images/one2.png" alt="" />
                     </div>
                 </div>
-                
             </div>
             <div class="kiemtien_title">
                 <p>Làm sao để bắt đầu?</p>
@@ -169,7 +279,6 @@
                         các nền tảng khác.
                     </p>
                 </div>
-                
             </div>
             <div class="title">
                 <h2>
@@ -182,21 +291,21 @@
             <div class="flex">
                 <div><img src="images/Vector_user.png" alt="" /></div>
                 <div class="flex_text">
-                    <h1>34523</h1>
+                    <h1>3423</h1>
                     <p>Người dùng</p>
                 </div>
             </div>
             <div class="flex">
                 <div><img src="images/Vector_011.png" alt="" /></div>
                 <div class="flex_text">
-                    <h1>34523</h1>
+                    <h1>45463</h1>
                     <p>Vé trung bình mỗi ngày</p>
                 </div>
             </div>
             <div class="flex">
                 <div><img src="images/Vector_002.png" alt="" /></div>
                 <div class="flex_text">
-                    <h1>34523</h1>
+                    <h1>80%</h1>
                     <p>Người dùng chiến thắng</p>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <script>
-    let title = "hieu duc bui"
+  
 </script>
 <main>
    <footer>
@@ -14,20 +14,22 @@
            <div class="about">
                <h2>About Us</h2>
             <ul> 
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Lợi ích</a></li>
+                <li><a href="">Buy BKT</a></li>
+                <li><a href="">Hướng dẫn</a></li>
+                <li><a href="">Liện hệ</a></li>
               </ul>
               
            </div>
            <div class="tutorial">
             <h2>Hướng Dẫn</h2>
             <ul> 
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#home">Rút tiền</a></li>
+                <li><a href="#news">Nạp tiền</a></li>
+                <li><a href="#contact">Lấy mã </a></li>
+                <li><a href="#about">Chuyển tiền</a></li>
+                <li><a href="#about">Kiểm tra tickit</a></li>
               </ul>
            </div>
        </div>
