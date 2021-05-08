@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0;
 }
-footer{
+.footer{
     background-color: white;
     width: 1440px;
     .ft__row{
@@ -10,8 +10,7 @@ footer{
         grid-template-columns: 1fr 1fr 1fr;
         padding-top: 100px;
         .ft__one{
-            // position: relative;
-            .fl__one__desktop{
+            .ft__one__desktop{
                 padding-right: 55px;
                 padding-top: 20px;
                 .ft__img{
@@ -19,32 +18,32 @@ footer{
                     padding-bottom: 10px;
                 }
             }
-            .fl__one__mobi{
+            .ft__one__mobi{
                 display: none;
             }
         }
         .ft__two{
             position: relative;
-            .fl__two__desktop{
+            .ft__two__desktop{
                 position: absolute;
                 top: 0px;
                 right: 60px;
                 width: 130px; 
              }
-             .fl__two__mobi{
+             .ft__two__mobi{
                  display: none;
              }
         }
-        .fl__three{
+        .ft__three{
            position: relative;
-            .fl__three__desktop{
+            // .fl__three__desktop{
             //    position: absolute;
             //     top: 0px;
             //     right: 60px;
             //     width: 150px;
             //     height: 500px;
-            }
-            .fl__three__mobi{
+            // }
+            .ft__three__mobi{
                 display: none;
         }
         
@@ -71,18 +70,86 @@ footer{
     }
 }
 @media all and (max-width: 568px) {
-    footer{
+    .footer{
         width: 568px;
-            .fl__one__desktop{
-                display: none;
-            }
-            .fl__one__mobi{
-                display: flex!important;
-                .fl__img{
-                    width: 67px;
-                    height: 31px;
+        .ft__row{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+           
+            .ft__one{
+                .ft__one__desktop{
+                    display: none;
+                }
+                .ft__one__mobi{
+                    display: flex;
+                    flex-direction: column;
+                    .ft__img img{
+                        width: 67px;
+                        height: 31px;
+                       padding: 0px 130px 15px 0px; 
+                    }
+                    p{
+                        width: 200px;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 12px;
+                        line-height: 150%;
+                        /* or 18px */
+
+                        letter-spacing: -0.045em;
+
+                        color: #575757;
+                    }
                 }
             }
+            .ft__two{
+                position: relative;
+                .ft__two__desktop{
+                    display: none;
+                }
+                .ft__two__mobi{
+                    display: flex;
+                    flex-direction: column;
+                    padding-right: 50px;
+                  
+                }
+            }
+            .ft__three{
+                position: relative;
+                .ft__three__desktop{
+                    display: none;
+                }
+                .ft__three__mobi{
+                    flex-direction: column;
+                    display: flex;
+                   
+                }
+            }
+            h2{
+                width: 90px;
+                height: 18px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 18px;
+                color: #4B4B4B;
+            }
+            ul{
+                width: 98px;
+                height: 211px;
+               
+                font-family: Roboto; 
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 164%;
+                letter-spacing: -0.045em;
+                color: #575757;
+            }
+        }
+
        
        
     }

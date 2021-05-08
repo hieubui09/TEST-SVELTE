@@ -25,11 +25,29 @@
             display: grid;
             grid-template-columns: 30% 40% 30%;
             align-items: center;
+            position: relative;
             .eng__vector {
                 padding-left: 10px;
             }
             .cate__vector{
                 display: none;
+            }
+            .VNM{
+                display: none;
+                &--active{
+                    display: block;
+                }
+                position: absolute;
+                left: 0px;
+                padding: 10px 10px;
+                margin: 5px 10px;
+                background: #0e0e0e;
+                top: 100%;
+                #vn{
+                    color: white;
+                    text-decoration: none;
+                  
+                }
             }
         }
     }
@@ -62,19 +80,20 @@
     }
 
 }
+// responsive mobile
 
 @media all and (max-width: 568px) {
     .header {
-        width: 568px;
+        width: 100%;
         position: fixed;
         z-index: 10;
         display: grid;
-        left: 17%;
+        left: 45%;
         transform: translateX(-50%);
         grid-template-columns: 35% 35% 30%;
         align-items: center;
         backdrop-filter: blur(5px);
-        padding: 10px 0px;
+        padding: 12px 0px;
         .logo {
             display: grid;
             grid-template-columns: 90% 10%;
@@ -93,7 +112,7 @@
                     padding-left: 10px;
                 }
                 .cate__vector{
-                    display: flex;
+                   display: flex;
                    height: 10px;
                    top: 30px;
                    left: 30px;
@@ -106,16 +125,10 @@
                 display: none;
             }
             .menu__mobi{
-                display: flex;
                 position: absolute;
                 top: -7px;
                 left: 260px;
-                .cate__vector{
-                   
-                }
-                .menu__mobi{
-                    display: none;
-                }
+            
             }
         }
         .join__Now{

@@ -14,11 +14,12 @@
     function prevSlide() {
         SwipeComp.prevItem();
     }
+    let screenWidth= window.innerWidth;
 </script>
 
 <main>
     <section>
-        <div class="Lighthouse">
+        <div class="Lighthouse">        
             <div class="Lighthouse__text">
                 <h1>Nền tảng tài chính thông minh hàng đầu trên thế giới</h1>
                 <p>
@@ -26,11 +27,12 @@
                     nền kinh tế phi tập trung hoàn toàn minh bạch
                 </p>
                 <div>
-                    <button>Tham Gia</button>
+                    <button>Tham gia</button>
                     <u>Tìm hiểu thêm</u>
-                    <p> &#10141;</p>
+                    <!-- <p> &#10141;</p> -->
                 </div>
             </div>
+                     
             <div class="Lighthouse__img">
                 <img class="img_01" src="images/Vector99.png" alt="">
                 <img  class="img_02" src="images/Vector98.png" alt="">
@@ -163,6 +165,7 @@
         <div class="content_kiemtien">
             <div class="slider">
                 <Swipe bind:this={SwipeComp} {...swipeConfig}>
+                    {#if screenWidth>568 }  
                     <SwipeItem>
                         <div class="slider__row">
                             <div class="slide__item1">
@@ -247,6 +250,31 @@
                             </div>
                         </div>
                     </SwipeItem>
+                    {:else}
+                    <SwipeItem>
+                        <div class="slider__row">
+                            <div class="slide__item1">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Mua vé</h3>
+                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </SwipeItem>
+                    <SwipeItem>
+                        <div class="slider__row">
+                            <div class="slide__item1">
+                                <div class="slide__text">
+                                    <img src="images/star 1.png" alt="" />
+                                    <h3>Mua vé</h3>
+                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                </div>
+                            </div>                       
+                        </div>
+                    </SwipeItem>
+                    {/if}
                 </Swipe>
 
                 <div class="button__btn">
@@ -281,10 +309,10 @@
                 </div>
             </div>
             <div class="title">
-                <h2>
+                <h3>
                     Mạng lưới của chúng tôi có mặt trên <br /> tất cả các quốc gia
                     trên thế giới
-                </h2>
+                </h3>
             </div>
         </div>
         <div class="content_world">

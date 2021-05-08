@@ -2,17 +2,17 @@
   
 </script>
 <main>
-   <footer>
+   <div class="footer">
        <div class="ft__row">
             <div class="ft__one">
-                <div class="fl__one__desktop">
+                <div class="ft__one__desktop">
                     <div class="ft__img">
                         <a href=""><img src="images/logo_bitking.png" alt="">
                         </a>
                     </div>
                     <p>Support@bitkingreturns.com</p>
                 </div>
-                <div class="fl__one__mobi">
+                <div class="ft__one__mobi">
                     <div class="ft__img">
                         <a href=""><img src="images/logo_bitking.png" alt=""></a>
                     </div>
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="ft__two">
-                <div class="fl__two__desktop">
+                <div class="ft__two__desktop">
                     <h2>About Us</h2>
                 <ul> 
                     <li><a href="">Giới thiệu</a></li>
@@ -31,7 +31,7 @@
                 </ul>
                 
                 </div>
-                <div class="fl__two__mobi">
+                <div class="ft__two__mobi">
                     <h2>About Us</h2>
                 <ul> 
                     <li><a href="">Introduce </a></li>
@@ -43,8 +43,8 @@
                 
                 </div>
             </div>
-            <div class="fl__three">
-                <div class="fl__three__desktop">
+            <div class="ft__three">
+                <div class="ft__three__desktop">
                     <h2>Hướng Dẫn</h2>
                     <ul> 
                         <li><a href="#home">Rút tiền</a></li>
@@ -54,8 +54,8 @@
                         <li><a href="#about">Kiểm tra tickit</a></li>
                     </ul>
                 </div>
-                <div class="fl__three__mobi">
-                    <h2>Hướng Dẫn</h2>
+                <div class="ft__three__mobi">
+                    <h2>Tutorial</h2>
                     <ul> 
                         <li><a href="#home">Withdrawal </a></li>
                         <li><a href="#news">Recharge </a></li>
@@ -66,7 +66,7 @@
                 </div>
             </div>
        </div>
-   </footer>
+   </div >
 </main>
 
 <style lang="scss">
