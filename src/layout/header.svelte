@@ -1,5 +1,6 @@
 <script>
     let changeLanguage = false;
+    let changeMenu = false;
 </script>
 
 <main>
@@ -24,7 +25,9 @@
             </div>
         </div>
         <div class="menu__all">
-            <div class="menu__mobi">
+            <div class="menu__mobi"  on:click={() => {
+                changeMenu = !changeMenu;
+            }}>
                 <div>
                     <img
                         class="cate__vector"
@@ -32,13 +35,15 @@
                         alt=""
                     />
                 </div>
-                <ul class="menu__mobi">
-                    <li><a href="">Giới thiệu</a></li>
-                    <li><a href="">Lợi ích</a></li>
-                    <li><a href="">Buy BKT</a></li>
-                    <li><a href="">Hướng dẫn</a></li>
-                    <li><a href="">Liện hệ</a></li>
-                </ul>
+                <div  class="nav__mobi" class:nav__mobi--active={changeMenu}>
+                    <ul>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Lợi ích</a></li>
+                        <li><a href="">Buy BKT</a></li>
+                        <li><a href="">Hướng dẫn</a></li>
+                        <li><a href="">Liện hệ</a></li>
+                    </ul>
+                 </div>
             </div>
             <div class="menu__desktop">
                 <ul>
