@@ -19,7 +19,7 @@
                 <i class="fas fa-globe" />
                 <p>ENG</p>
                 <img class="eng__vector" src="images/Vector.png" alt="" />
-                <div class="VNM" class:VNM--active={changeLanguage}>
+                <div class="VN" class:VN--active={changeLanguage}>
                     <a href="" id="vn">VN</a>
                 </div>
             </div>

@@ -14,12 +14,12 @@
     function prevSlide() {
         SwipeComp.prevItem();
     }
-    let screenWidth= window.innerWidth;
+    let screenWidth = window.innerWidth;
 </script>
 
 <main>
     <section>
-        <div class="Lighthouse">        
+        <div class="Lighthouse">
             <div class="Lighthouse__text">
                 <h1>Nền tảng tài chính thông minh hàng đầu trên thế giới</h1>
                 <p>
@@ -32,10 +32,10 @@
                     <!-- <p> &#10141;</p> -->
                 </div>
             </div>
-                     
+
             <div class="Lighthouse__img">
-                <img class="img_01" src="images/Vector99.png" alt="">
-                <img  class="img_02" src="images/Vector98.png" alt="">
+                <img class="img_01" src="images/Vector99.png" alt="" />
+                <img class="img_02" src="images/Vector98.png" alt="" />
                 <img class="img_03" src="images/Group B.png" alt="" />
             </div>
         </div>
@@ -88,7 +88,7 @@
                         trên thế giới, trong đó bao gồm BTR – hứa hẹn sẽ phát
                         triển mạnh mẽ trong năm 2021
                     </p>
-                    <button>Tham Gia &#10141;</button>
+                    <button>Tham gia &#10141;</button>
                 </div>
             </div>
             <div class="title">
@@ -109,12 +109,9 @@
                             tiền.
                         </p>
                         <div>
-                            <u class="read">
-                                Read more
-                            </u>
-                            <p> &#10141;</p>
+                            <u class="read"> Read more </u>
+                            <p>&#10141;</p>
                         </div>
-                        
                     </div>
                 </div>
                 <div class="item2__grid">
@@ -127,18 +124,16 @@
                             đảo tấn công và lấy cắp tài sản của bạn
                         </p>
                         <div>
-                            <u class="read">
-                                Read more
-                            </u>
-                            <p> &#10141;</p>
+                            <u class="read"> Read more </u>
+                            <p>&#10141;</p>
                         </div>
                     </div>
                 </div>
                 <div class="item3__grid">
                     <div class="item3__text">
-                         <div>
-                           <img src="images/Ellipse 2.png" alt="">
-                       </div>
+                        <div>
+                            <img src="images/Ellipse 2.png" alt="" />
+                        </div>
                         <img src="images/03.png" alt="" />
                         <h3>Kiếm tiền trở nên dễ dàng với Bitkingreturns</h3>
                         <p>
@@ -150,10 +145,8 @@
                             hảo cho bạn.
                         </p>
                         <div>
-                            <u class="read">
-                                Read more
-                            </u>
-                            <p> &#10141;</p>
+                            <u class="read"> Read more </u>
+                            <p>&#10141;</p>
                         </div>
                     </div>
                 </div>
@@ -165,115 +158,114 @@
         <div class="content_kiemtien">
             <div class="slider">
                 <Swipe bind:this={SwipeComp} {...swipeConfig}>
-                    {#if screenWidth>568 }  
-                    <SwipeItem>
-                        <div class="slider__row">
-                            <div class="slide__item1">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Mua vé</h3>
-                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                    {#if screenWidth > 568}
+                        <SwipeItem>
+                            <div class="slider__row">
+                                <div class="slide__item1">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Mua vé</h3>
+                                        <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                    </div>
+                                </div>
+                                <div class="slide__item2">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Theo dõi lợi nhuận</h3>
+                                        <p>Theo dõi lợi nhuận của từng vé</p>
+                                    </div>
+                                </div>
+                                <div class="slide__item3">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Chia sẻ</h3>
+                                        <p>
+                                            Chia sẻ để xây dựng khoản lợi nhuận
+                                            lớn mỗi ngày
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="slide__item2">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Theo dõi lợi nhuận</h3>
-                                    <p>Theo dõi lợi nhuận của từng vé</p>
+                        </SwipeItem>
+                        <SwipeItem>
+                            <div class="slider__row">
+                                <div class="slide__item1">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Mua vé</h3>
+                                        <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                    </div>
+                                </div>
+                                <div class="slide__item2">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Theo dõi lợi nhuận</h3>
+                                        <p>Theo dõi lợi nhuận của từng vé</p>
+                                    </div>
+                                </div>
+                                <div class="slide__item3">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Chia sẻ</h3>
+                                        <p>
+                                            Chia sẻ để xây dựng khoản lợi nhuận
+                                            lớn mỗi ngày
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="slide__item3">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Chia sẻ</h3>
-                                    <p>
-                                        Chia sẻ để xây dựng khoản lợi nhuận lớn
-                                        mỗi ngày
-                                    </p>
+                        </SwipeItem>
+                        <SwipeItem>
+                            <div class="slider__row">
+                                <div class="slide__item1">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Mua vé</h3>
+                                        <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                    </div>
+                                </div>
+                                <div class="slide__item2">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Theo dõi lợi nhuận</h3>
+                                        <p>Theo dõi lợi nhuận của từng vé</p>
+                                    </div>
+                                </div>
+                                <div class="slide__item3">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Chia sẻ</h3>
+                                        <p>
+                                            Chia sẻ để xây dựng khoản lợi nhuận
+                                            lớn mỗi ngày
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </SwipeItem>
-                    <SwipeItem>
-                        <div class="slider__row">
-                            <div class="slide__item1">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Mua vé</h3>
-                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
-                                </div>
-                            </div>
-                            <div class="slide__item2">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Theo dõi lợi nhuận</h3>
-                                    <p>Theo dõi lợi nhuận của từng vé</p>
-                                </div>
-                            </div>
-                            <div class="slide__item3">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Chia sẻ</h3>
-                                    <p>
-                                        Chia sẻ để xây dựng khoản lợi nhuận lớn
-                                        mỗi ngày
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </SwipeItem>
-                    <SwipeItem>
-                        <div class="slider__row">
-                            <div class="slide__item1">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Mua vé</h3>
-                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
-                                </div>
-                            </div>
-                            <div class="slide__item2">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Theo dõi lợi nhuận</h3>
-                                    <p>Theo dõi lợi nhuận của từng vé</p>
-                                </div>
-                            </div>
-                            <div class="slide__item3">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Chia sẻ</h3>
-                                    <p>
-                                        Chia sẻ để xây dựng khoản lợi nhuận lớn
-                                        mỗi ngày
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </SwipeItem>
+                        </SwipeItem>
                     {:else}
-                    <SwipeItem>
-                        <div class="slider__row">
-                            <div class="slide__item1">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Mua vé</h3>
-                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                        <SwipeItem>
+                            <div class="slider__row">
+                                <div class="slide__item1">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Mua vé</h3>
+                                        <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                    </div>
                                 </div>
                             </div>
-                            
-                        </div>
-                    </SwipeItem>
-                    <SwipeItem>
-                        <div class="slider__row">
-                            <div class="slide__item1">
-                                <div class="slide__text">
-                                    <img src="images/star 1.png" alt="" />
-                                    <h3>Mua vé</h3>
-                                    <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                        </SwipeItem>
+                        <SwipeItem>
+                            <div class="slider__row">
+                                <div class="slide__item1">
+                                    <div class="slide__text">
+                                        <img src="images/star 1.png" alt="" />
+                                        <h3>Mua vé</h3>
+                                        <p>Mua vé của bạn để bắt đầu đầu tư</p>
+                                    </div>
                                 </div>
-                            </div>                       
-                        </div>
-                    </SwipeItem>
+                            </div>
+                        </SwipeItem>
                     {/if}
                 </Swipe>
 

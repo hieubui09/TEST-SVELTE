@@ -29,7 +29,6 @@
                     <li><a href="">Hướng dẫn</a></li>
                     <li><a href="">Liện hệ</a></li>
                 </ul>
-                
                 </div>
                 <div class="ft__two__mobi">
                     <h2>About Us</h2>
@@ -40,7 +39,6 @@
                     <li><a href="">Tutorial </a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-                
                 </div>
             </div>
             <div class="ft__three">

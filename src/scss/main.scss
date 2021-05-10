@@ -8,6 +8,7 @@ section{
     width: 1440px;
     font-family: Roboto;
     font-style: normal;
+    cursor: pointer;
     .Lighthouse{
         background: url('/images/Group 40.png') no-repeat;
         background-position-x: right;
@@ -113,10 +114,11 @@ section{
         .content{
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
-               text-align: center;
-               padding-bottom: 80px;
+                text-align: center;
+                padding-bottom: 80px;
                 h3{
                     padding: 40px 0px;
+                    font-size: 23px;
                 }
                  p{
                   width: 300px;
@@ -179,7 +181,7 @@ section{
                     background-position-x: 90%;
                     border-left:  2px dashed #BDBDBD;
                     position: relative;
-                    // border-bottom: 3px dashed #BDBDBD;
+                 
                       .item1__text{
                             position: absolute;
                             width: 374px;
@@ -189,11 +191,8 @@ section{
                                 h3{
                                 width: 374px;
                                 height: 84px;
-                                font-family: Roboto;
-                                font-style: normal;
-                                font-weight: 500;
                                 font-size: 28px;
-                                line-height: 42px;
+                                line-height: 40px;
                                 color: #4B4B4B;
                                 padding: 15px 0px;
                               }
@@ -201,12 +200,8 @@ section{
                                 padding: 10px 0px;
                                 width: 396px;
                                 height: 58px;
-                             
-                                font-family: Roboto;
-                                font-style: normal;
-                                font-weight: 300;
                                 font-size: 16px;
-                                line-height: 19px;
+                                line-height:20px;
 
                                 color: #656565;
                               }
@@ -216,10 +211,10 @@ section{
                                     padding-top: 5px;
                                     width: 110px;
                                 }
-                              
-                            }
-                             
-            
+                                p{
+                                    padding-top: 6px;
+                                }
+                            }                                    
                         }
                 }
                 .item1__grid::after{
@@ -284,7 +279,7 @@ section{
                                 width: 235px;
                             }
                             p{
-                                padding: 10px;
+                                padding: 5px;
                             }
                         
                         }
@@ -335,21 +330,14 @@ section{
                         h3{
                             width: 321px;
                             height: 66px;
-                            font-family: Roboto;
-                            font-style: normal;
-                            font-weight: 500;
                             font-size: 28px;
                             line-height: 33px;
-                            padding: 20px 0px;
-                            
+                            padding: 20px 0px;                       
                             color: #4B4B4B;
                         }
                         p{
                             width: 434px;
                             height: 93px;
-                            font-family: Roboto;
-                            font-style: normal;
-                            font-weight: 300;
                             font-size: 16px;
                             line-height: 19px;
 
@@ -362,7 +350,7 @@ section{
                                 width: 150px;
                             }
                             p{
-                                padding: 10px;
+                                padding: 5px;
                             }
                         
                         }
@@ -472,19 +460,17 @@ section{
         height: 400px;
         position: relative;
         .kiemtien_title{
+            position: absolute;
+            top: 50px;
+            left: 30px;
             p{
                 position: absolute;
                 width: 165px;
                 height: 24px;
                 left: 860px;
                 top: 40px;
-                
-                font-family: Poppins;
-                font-style: normal;
-                font-weight: normal;
                 font-size: 16px;
-                line-height: 24px;
-              
+                line-height: 24px;  
                 color: #959595;
             };
             h3{
@@ -493,10 +479,6 @@ section{
                 height: 90px;
                 left: 860px;
                 top: 75px;
-
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: bold;
                 font-size: 30px;
                 line-height: 120%;
             };
@@ -506,10 +488,6 @@ section{
                 height: 72px;
                 left: 860px;
                 top: 160px;
-                
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: 300;
                 font-size: 16px;
                 line-height: 19px;
                 

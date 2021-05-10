@@ -5,17 +5,18 @@
 .footer{
     background-color: white;
     width: 1440px;
+    cursor: pointer;
     .ft__row{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 100px;
+        padding-top: 80px;
         .ft__one{
             .ft__one__desktop{
                 padding-right: 55px;
-                padding-top: 20px;
+              
                 .ft__img{
                     padding-left: 0px;
-                    padding-bottom: 10px;
+                    padding-bottom: 30px;
                 }
             }
             .ft__one__mobi{
@@ -36,19 +37,13 @@
         }
         .ft__three{
            position: relative;
-            // .fl__three__desktop{
-            //    position: absolute;
-            //     top: 0px;
-            //     right: 60px;
-            //     width: 150px;
-            //     height: 500px;
-            // }
+            .ft__three__desktop{
+            padding-right: 360px;
+            }
             .ft__three__mobi{
                 display: none;
         }
         
-        
-       
         }
 
         h2{
